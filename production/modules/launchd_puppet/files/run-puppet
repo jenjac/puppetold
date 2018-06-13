@@ -1,0 +1,9 @@
+#!/bin/sh
+
+(
+    cd /etc/puppetlabs
+    git pull
+
+    echo "It ran" 
+
+) >> /Library/Logs/run-puppet.log 2>&1

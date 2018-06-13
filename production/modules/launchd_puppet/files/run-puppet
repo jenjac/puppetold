@@ -1,7 +1,7 @@
 #!/bin/sh
 
 (
-    cd /etc/puppetlabs
+    cd /etc/puppetlabs/code/environments
     git pull
 
     echo "It ran" 
